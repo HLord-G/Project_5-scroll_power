@@ -10,18 +10,28 @@
 .screen_guid{
     position:fixed;
     top:0; left:0;
-    height:100vh;
+    height:100dvh;
     width:100%;
     z-index:9999999999;
-    background-color: rgba(128, 128, 128, 0.096);
+    background-color: unset;
     border:1px solid red;
 
     .line{
         position: relative;
         top:0; left:0;
-        height:50%;
+        // height:50%;
         width:100%;
         border-bottom:1px solid red;
+        background-color: unset;
+
+
+        .line_size{
+            position: absolute;
+            bottom:3%;
+            right:3%;
+            background-color: unset;
+
+        }
     }
 }
 
