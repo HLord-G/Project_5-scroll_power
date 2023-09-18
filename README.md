@@ -46,14 +46,14 @@ let newData = new scroll_inAction("bottom","both",1297,1297)
 ### pag output sa data
 
 ```js
-datatest.autoProCesses(datatest.scrollFunc())
+newData.autoProCesses(newData.scrollFunc())
 ```
 
-mao ni pag *output* sa data, pag pa gawas raman ani ug true or false. eh check niya kung naka sulod naba siya sa starting point or lahus na siya sa end point. 
+mao ni pag *output* sa data, pag pa gawas raman ani ug true or false. eh check niya kung naka sulod naba siya sa starting point or lahus na siya sa end point.  eh butang ni siya sa scroll animation up ug down.
 
 
 
-<br>
+<br><br>
 
 
 ---
@@ -118,3 +118,38 @@ window.addEventListener("scroll", function() {
 })
 
 ```
+
+
+<br><br><br><br>
+
+
+
+---
+
+ikaw na dayun bahala kung unsa mai Function nimo ato ang gamit lang gyud niya is mag output siya ug true or false kung naka sulod naka sa starting point ur sa end point 
+
+<br>
+
+pamaage ani dali lang sa imo mag animate or ma manupulate ug data pamaage lang sa pag scroll sa mouse nimo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
