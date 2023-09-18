@@ -59,168 +59,6 @@ try {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function scrollWorks(screen_p,scrllEvent,aniNum) {
-//     window.addEventListener("scroll", function() {
-
-//         // Get the current scroll position
-//         console.clear();
-//         window_scroll_num = window.pageYOffset
-
-
-//         var console_style = "color:green;"
-//         // kwaon ang top screen position
-//         function console_scrnTop() {
-//                 console.log(`%c Top - ${Math.floor(Number(window_scroll_num))}`,console_style)
-//             // return Math.floor(Number(window_scroll_num))
-//         }
-//         // kwaon ang center position sa screen
-//         function console_scrnCenter(){
-//                 console.log(`%c Center - ${Math.floor(Number(screenHeight/2+window_scroll_num))}`,console_style)
-//             // return Math.floor(Number(screenHeight/2+window_scroll_num))
-//         }
-//         // kwaon ang bottom postition sa screen 
-//         function console_scrnBottom(){
-//                 console.log(`%c Bottom - ${Math.floor(Number(screenHeight + window_scroll_num))}`,console_style)
-//             // return Math.floor(Number(screenHeight + window_scroll_num))
-//         }
-    
-    
-    
-    
-    
-    
-// function scrollFunc(key){
-//             switch (key) {
-//                 case "top":
-//                     return Math.floor(Number(window_scroll_num))
-//                 break; //end
-    
-//                 case "center":
-//                     if (main_number == 0) {
-//                         main_number = Math.floor(Number(screenHeight/2+window_scroll_num))
-//                         console.log(Math.floor(Number(screenHeight/2+window_scroll_num)))
-//                         return Math.floor(Number(screenHeight/2+window_scroll_num))
-//                         // main_number = Math.floor(Number(screenHeight/2+window_scroll_num))
-
-//                     }else{
-//                         holder =  Math.floor(Number(screenHeight - main_number)) 
-//                         remove_niga = Math.abs(holder)
-                        
-//                         if (main_number <= screenHeight/2) {
-
-//                             console.log(`- ${Math.abs(Math.floor(Number(screenHeight - remove_niga +window_scroll_num)))}`)
-//                             return  Math.abs(Math.floor(Number(screenHeight - remove_niga +window_scroll_num)))
-//                         }else{
-        
-//                             console.log(`+ ${Math.abs(Math.floor(Number(screenHeight - remove_niga +window_scroll_num)))}`)
-//                             return  Math.abs(Math.floor(Number(screenHeight - remove_niga +window_scroll_num)))
-//                         }
-
-//                     }
-                    
-//                 break; //end
-            
-//                 case "bottom":
-//                     return Math.floor(Number(screenHeight + window_scroll_num))
-//                 break; //end
-//             }
-//         }
-    
-
-
-        
-    
-//         function autoProCesses(event){
-//             switch (event) {
-//                 case "onup":
-//                     if (scroll_UnD == "up") {
-//                         if (aniNum <= scrollFunc(screen_p) && 1395 >= Math.floor(Number(window_scroll_num))) {
-//                             console.log("pass")
-//                         }
-//                     }
-//                 break;
-//                 case "ondown":
-//                     if (scroll_UnD == "down") {
-//                         if (aniNum <= scrollFunc(screen_p) && 1395 >= Math.floor(Number(window_scroll_num))) {
-//                             console.log("pass")
-//                         }
-//                     }
-//                 break;
-//                 case "both":
-//                     if (aniNum <= scrollFunc(screen_p) && 1395 >= Math.floor(Number(window_scroll_num))) {
-//                         console.log("pass")
-//                     }
-//                 break;
-//             }
-
-
-//         }
-    
-    
-    
-    
-//         // kwaon ang scroll event defind kung up or down
-//         let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-//         if (scrollTop > lastScrollTop) {// down
-//             scroll_UnD = "down"
-//             console.log("test down " + Math.floor(Number(screenHeight + window_scroll_num)))
-//             console_scrnTop()
-//             console_scrnCenter()
-//             console_scrnBottom()
-            
-//         }else{//up
-//             scroll_UnD = "up"
-//             console.log("test up "+ Math.floor(Number(screenHeight + window_scroll_num)))
-//             console_scrnTop()
-//             console_scrnCenter()
-//             console_scrnBottom()
-            
-//         }
-    
-//         // Update the last scroll position
-//         lastScrollTop = scrollTop;
-//         })
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class scroll_inAction {
     constructor(screen_p,scrllEvent,start_animation,end_animation) {
         this.screen_p_   = screen_p
@@ -339,44 +177,30 @@ class scroll_engine{
 
 
 
-let scrollApp = new scroll_engine()
-let datatest  = new scroll_inAction("bottom","both",1410,1410)
-let tester    = new scroll_inAction("bottom","both",1297,1297)
 
 
 
 
-window.addEventListener("scroll", function() {
-        console.clear();
-        window_scroll_num = window.pageYOffset
 
 
-    // kwaon ang scroll event defind kung up or down
-    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    if (scrollTop > lastScrollTop) {// down
-        scroll_UnD = "down"
-        console.log("test down "+ Math.floor(Number(screenHeight + window_scroll_num)))
-        scrollApp.console_scrnTop()
-        scrollApp.console_scrnCenter()
-        scrollApp.console_scrnBottom()
 
-        console.log(`is - ${datatest.autoProCesses(datatest.scrollFunc())}`)
-  
-    }else{//up
-        scroll_UnD = "up"
-        console.log("test up "+ Math.floor(Number(screenHeight + window_scroll_num)))
-        scrollApp.console_scrnTop()
-        scrollApp.console_scrnCenter()
-        scrollApp.console_scrnBottom()
 
-        console.log(`is - ${datatest.autoProCesses(datatest.scrollFunc())}`)
-    }
-        
 
-    // Update the last scroll position
-    lastScrollTop = scrollTop;
-    
-})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
