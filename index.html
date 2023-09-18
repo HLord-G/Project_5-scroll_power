@@ -9,38 +9,17 @@
     <link rel="stylesheet" href="src/style/main.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-    <script>
-        $(document).ready(function() {
-            // // Create the HTML structure using jQuery
-            var screenGuid = $('<div>').addClass('screen_guid').css({"height":`${screenHeight}px`});
-            var lineDiv = $('<div>').addClass('line').css({"height":`${screenHeight/2}px`});
-            var lineSizeDiv = $('<div>').addClass('line_size').text('0');
-
-            // Append the elements to form the desired structure
-            screenGuid.append(
-                lineDiv.append(lineSizeDiv)
-            );
-            $('body').append(screenGuid);
-            // Append the "screen_guid" div to the body of the document
-            
 
 
-        });
+    <script src="src/script/scroller_view.js"></script>
 
-    </script>
+
 
 </head>
 
 <body id="clefer">
-    
-    <!-- <div class="screen_guid">
-        <div class="line">
-            <div class="line_size">0</div>
-        </div>
-    </div> -->
-    
 
-
+    
 
     <div class="content">
 
@@ -71,14 +50,7 @@
 
 
     <script src="src/script/scroller.js"></script>
-
-    <script>
-        
-        // scrollWorks("center","both",2005)
-
-
-        // scrollWorks("center","down",2005)
-    </script>
+    <script src="src/script/scroller_app.js"></script>
 </body>
 </html>
 
