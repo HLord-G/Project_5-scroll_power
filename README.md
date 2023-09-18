@@ -40,12 +40,15 @@
 let newData = new scroll_inAction("bottom","both",1297,1297)
 
 ```
-
+<br>
 ---
+
 ### pag output sa data
 ```js
 datatest.autoProCesses(datatest.scrollFunc())
 ```
+ang mo gawas raman ani kai true or false raman.
+check raman niya kung naka sulod naba siya sa starting point or lahus na siya sa end point 
 <br>
 ---
 ## Animations and Data
