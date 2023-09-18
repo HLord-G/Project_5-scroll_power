@@ -49,13 +49,15 @@ let newData = new scroll_inAction("bottom","both",1297,1297)
 datatest.autoProCesses(datatest.scrollFunc())
 ```
 
-<p>
 mao ni pag *output* sa data, pag pa gawas raman ani ug true or false. eh check niya kung naka sulod naba siya sa starting point or lahus na siya sa end point. 
-</p>
+
 
 
 <br>
+
+
 ---
+
 ## Animations and Data
 
 sulod lang sa animations UP and Down ug data ang eh update ani ang uban ayaw na hilabta.
