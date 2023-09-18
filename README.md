@@ -11,7 +11,7 @@
 </body>
 
    <script src="scroller.js"> </script>
-   <script src="scroller_view.js"> </script>
+   <script src="scroller_app.js"> </script>
 ```
 ---
 <br>
@@ -20,7 +20,7 @@
 
 **scroller_view.js** - dili kaayu ni importante pero guide raman ni siya para ma kita ang animation.. <br>
 **scroller.js** - dari ma kita ang functions sa scroller dili ni siya pwide hilabtan. <br>
-**scroller_view.js** - dari nimo ma change imong mga data para sa scroll controller dari lang ka pwide mag hilabut ug sa *scroller_view.js*. 
+**scroller_app** - dari nimo ma change imong mga data para sa scroll controller dari lang ka pwide mag hilabut ug sa *scroller_view.js*. 
 
 
 
