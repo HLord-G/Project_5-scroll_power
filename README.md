@@ -42,9 +42,15 @@ let newData = new scroll_inAction("bottom","both",1297,1297)
 ```
 
 ---
+### pag output sa data
+```js
+datatest.autoProCesses(datatest.scrollFunc())
+```
+<br>
+---
 ## Animations and Data
 
-sulod lang sa animations ug data ang eh update ani ang uban ayaw na hilabta.
+sulod lang sa animations UP and Down ug data ang eh update ani ang uban ayaw na hilabta.
 
 ```js
 
